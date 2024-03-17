@@ -1,0 +1,28 @@
+#dsct-catalog-section {
+  padding: 20px 0;
+}
+.dsct-catalog-main {
+  padding: 0 10px;
+}
+.dsct-message-container {
+  margin-bottom: 20px;
+}
+.dsct-message-container h1 {
+  color: var(--dsct-color-font-terciary);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.dsct-catalog-cards-container {
+  border: 1px solid blue;
+}
+@media (min-width:746px) {
+  .dsct-catalog-main {
+    padding: 0 227px;
+  }
+
+}
+  
+
