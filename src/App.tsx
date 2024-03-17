@@ -1,7 +1,5 @@
-import "./App.css";
+import Catalog from "./routes/Catalog";
 
-function App() {
-  return <h1>ReactComponents</h1>;
+export default function App() {
+  return (<Catalog/>);
 }
-
-export default App;
