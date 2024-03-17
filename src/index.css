@@ -25,3 +25,8 @@ a, a:hover {
 html, body {
     background-color: var(--dsct-color-bg-primary);
 }
+.dsct-container {
+    width: 100%;
+    max-width: 746px;
+    margin: 0 auto;
+}
