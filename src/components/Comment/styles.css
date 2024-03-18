@@ -1,7 +1,7 @@
 .dsct-comment-border {
-  padding: 20px;
+  padding: 0px;
   display: flexbox;
-  margin: 0 120px 20px 120px;
+  margin: 20px 120px 0px 120px;
   border: 1px solid var(--dsct-color-bg-secondary);
   border-radius: 12px;
 }
@@ -17,9 +17,9 @@
 @media(min-width:280px) {
 
   .dsct-comment-border {
-    padding: 20px;
+    padding: 0px;
     display: flexbox;
-    margin: 0 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
     border: 1px solid var(--dsct-color-bg-secondary);
     border-radius: 12px;
   }

@@ -1,35 +1,34 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
 
 :root {
   --dsct-color-bg-primary: #ffffff;
   --dsct-color-bg-secondary: #3c9af0;
   --dsct-color-bg-terciary: #c8c8c8;
-  --dsct-color-bg-quaternary: #D9D9D900;
-  
-
+  --dsct-color-bg-quaternary: #d9d9d900;
 
   --dsct-color-font-primary: #ffffff;
   --dsct-color-font-secondary: #3c9af0;
   --dsct-color-font-terciary: #5e5e5e;
 }
-*{ 
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0; 
-    font-family: 'Poppins';
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
 }
 
-a, a:hover {
-    text-decoration: none;
-    color: unset;
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
 }
 
-html, body {
-    background-color: var(--dsct-color-bg-primary);
+html,
+body {
+  background-color: var(--dsct-color-bg-primary);
 }
 .dsct-container {
-    width: 100%;
-    max-width: 746px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto;
 }
