@@ -13,16 +13,65 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  
 }
 .dsct-catalog-cards-container {
-  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns:repeat(auto-fill, min-max( 746px, 1fr)) ;
 }
 @media (min-width:746px) {
   .dsct-catalog-main {
     padding: 0 227px;
   }
-
 }
+#dsct-catalog-comments-section {
+  background-color: var(--dsct-color-bg-terciary);
+}
+.dsct-title-container {
+  color: var(--dsct-color-font-terciary);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width: 746px) {
+  .dsct-card img {
+    width: 391px;
+  }
+  .dsct-title-container {
+    color: var(--dsct-color-font-terciary);
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .dsct-message-container h1 {
+    color: var(--dsct-color-font-terciary);
+    font-size: 38px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+}
+
+@media (min-width:1000px){
+  .dsct-message-container h1 {
+    color: var(--dsct-color-font-terciary);
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
+
+
   
 

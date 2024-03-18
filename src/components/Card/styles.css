@@ -1,0 +1,32 @@
+.dsct-card {
+  background-color: var(--dsct-color-bg-quaternary);
+}
+.dsct-card img {
+  width: 130px;
+}
+
+@media (min-width: 280px) {
+  .dsct-card img {
+    width: 260px;
+  }
+}
+
+@media (min-width: 746px) {
+  .dsct-card img {
+    width: 391px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .dsct-card img {
+    width: 524px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .dsct-card img {
+    width: 800px;
+  }
+}
+
+
